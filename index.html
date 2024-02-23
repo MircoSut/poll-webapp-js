@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Poll Web App</title>
+  </head>
+  <body>
+    <!-- Vote Polls Button -->
+    <section class="vote" id="vote" align="center">
+      <h2><strong>Vote</strong> Polls</h2>
+      <p>Vote all existing polls</p>
+      <button class="vote-button">
+        <a href="vote.html">Go</a>
+      </button>
+    </section>
+
+    <!-- Create Polls Button -->
+    <section class="create" id="create" align="center">
+      <h2><strong>Create</strong> Poll</h2>
+      <p>Create a New Poll</p>
+      <button class="create-button">
+        <a href="create.html">Go</a>
+      </button>
+    </section>
+
+    <!-- My Polls -->
+    <section class="my-polls">
+      <h1 align="center">My Polls</h1>
+      <!-- Search Bar -->
+      <div align="center" class="search-bar">
+        <input
+          type="text"
+          class="search-input"
+          id="pollSearch"
+          placeholder="Search my polls..."
+        />
+        <button class="search__btn">Search</button>
+        <!-- Clear Filter Button -->
+        <button class="clear-filter__btn">Clear Filter</button>
+      </div>
+      <!-- Display Polls -->
+      <div class="poll"></div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

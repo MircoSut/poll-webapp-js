@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Create Polls</title>
+  </head>
+  <body>
+    <section class="create-polls">
+      <h1 align="center">Create Polls</h1>
+
+      <form align="center" method="POST" id="pollForm">
+        <!-- <p>[All Image File are <strong>optional</strong>]</p> -->
+
+        <div class="create-poll">
+          <h4 class="build__question">Choose your <strong>Question</strong></h4>
+          <input
+            type="text"
+            name="question"
+            placeholder="What's your favourite food?"
+          />
+          <!-- <input type="file"> -->
+
+          <div class="create-option">
+            <p class="build__options"><strong>Option 1:</strong></p>
+            <!-- <input type="file" class="option__img"> -->
+            <input type="text" name="option_1" placeholder="Pizza" />
+          </div>
+
+          <div class="create-option">
+            <p class="build__options"><strong>Option 2:</strong></p>
+            <!-- <input type="file" class="option__img"> -->
+            <input type="text" name="option_2" placeholder="Sushi" />
+          </div>
+
+          <div class="create-option">
+            <p class="build__options"><strong>Option 3:</strong></p>
+            <!-- <input type="file" class="option__img" > -->
+            <input type="text" name="option_3" placeholder="Hamburger" />
+          </div>
+
+          <div class="create-option">
+            <p class="build__options"><strong>Option 4:</strong></p>
+            <!-- <input type="file" class="option__img"> -->
+            <input type="text" name="option_4" placeholder="Other" />
+          </div>
+        </div>
+
+        <div align="center">
+          <button type="submit" class="create-poll-btn">Create</button>
+        </div>
+      </form>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
